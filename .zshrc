@@ -17,6 +17,8 @@ zplug "romkatv/powerlevel10k", as:theme, depth:1
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 zplug "marlonrichert/zsh-autocomplete"
 zplug "zsh-users/zsh-autosuggestions"
+zplug "zsh-users/zsh-completions"
+zplug "zsh-users/zsh-history-substring-search"
 zplug "zdharma/fast-syntax-highlighting"
 zplug "zpm-zsh/ls"
 zplug "plugins/extract", from:oh-my-zsh
