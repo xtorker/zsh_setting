@@ -13,6 +13,11 @@ Install manually (https://the.exa.website/install/linux#manual)
 In $HOME,
 `git clone https://github.com/marlonrichert/zsh-autocomplete.git`
 
+- Nerd Fonts for Powerlevel 10k
+Download the `Hack.zip` from (https://github.com/ryanoasis/nerd-fonts/releases).
+Install the `Mono Windows` one.
+Set the font based on your terminal tutorial.
+
 ## Install zsh and zplug
 - zsh
 `apt install zsh`
