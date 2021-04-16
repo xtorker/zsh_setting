@@ -1,10 +1,30 @@
 # zsh_setting
-My own zsh setup
+
+## Prerequisite
+- grc
+`apt install grc`
+
+- exa
+`apt install exa` (from Ubuntu 20.10)
+or
+Install manually (https://the.exa.website/install/linux#manual)
+
+- marlonrichert/zsh-autocomplete
+In $HOME,
+`git clone https://github.com/marlonrichert/zsh-autocomplete.git`
+
+## Install zsh and zplug
+- zsh
+`apt install zsh`
+
+- zplug
+`curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh`
+
+## Test everything is fine
+`exec zsh`
+
+If everything is alright, change your default shell.
+`chsh -s $(which zsh)`
 
 ## Reload
-Use `exec zsh` to reload the zshrc setup and make it work.
-
-## Bindkey to solve Ctrl+left right issue
-bindkey "^[[1;5C" forward-word
-
-bindkey "^[[1;5D" backward-word
+Everytime you make a change to `.zshrc` or `.zprofile`, use `exec zsh` to reload and make it works.
