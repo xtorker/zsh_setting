@@ -8,6 +8,7 @@
 `apt install exa` (from Ubuntu 20.10)
 or
 Install manually (https://the.exa.website/install/linux#manual)
+Remember to `chown` and `chmod`.
 
 - marlonrichert/zsh-autocomplete
 In $HOME,
