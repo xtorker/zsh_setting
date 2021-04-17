@@ -19,6 +19,9 @@ Download the `Hack.zip` from (https://github.com/ryanoasis/nerd-fonts/releases).
 Install the `Mono Windows` one.
 Set the font based on your terminal tutorial.
 
+- Config files
+Put `.p10k.zsh`, `.zshrc`, and `.zprofile` in your home directory.
+
 ## Install zsh and zplug
 - zsh
 `apt install zsh`
