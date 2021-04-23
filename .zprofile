@@ -1,3 +1,6 @@
+# For zsh-autoswitch-conda
+. /home/chenghao/anaconda3/etc/profile.d/conda.sh
+
 # Start from Ubuntu 20.04, CUDA is install in the below path
 export LD_LIBRARY_PATH=/usr/lib/cuda/lib64:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=/usr/lib/cuda/include:$LD_LIBRARY_PATH
