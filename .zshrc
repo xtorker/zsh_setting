@@ -26,6 +26,7 @@ zplug "zpm-zsh/ls" # use with exa for better colorization
 zplug "zpm-zsh/material-colors" # dircolor
 zplug "zsh-users/zsh-autosuggestions" # history gray string
 zplug "zdharma/fast-syntax-highlighting"
+zplug "bckim92/zsh-autoswitch-conda"
 zplug "plugins/sudo", from:oh-my-zsh
 zplug "plugins/extract", from:oh-my-zsh
 
